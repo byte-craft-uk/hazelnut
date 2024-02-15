@@ -10,5 +10,10 @@
     <PackageId>Hazelnut</PackageId>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/byte-craft-uk/hazelnut.git</RepositoryUrl>
+     <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
+    <ItemGroup>
+      <None Include="README.md" Pack="true" PackagePath="\"/>
+    </ItemGroup>
 </Project>
