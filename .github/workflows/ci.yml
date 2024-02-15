@@ -1,0 +1,35 @@
+name: Build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  release:
+    types: [published]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+      
+      - uses: actions/setup-node@master
+        with:
+          node-version: 16.x
+      
+      - name: Install dotnet manifest
+        run: dotnet new tool-manifest
+
+      - name: .Net Build
+        run: dotnet build -c Release
+      
+      - name: Run Tests
+        run: >-
+           dotnet test
+           -c Release
+           --no-build
+           --verbosity normal
+           --logger "console;verbosity=detailed"
