@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<PropertyGroup>
+		<PackageId>Hazelnut.Webs</PackageId>
+		<RepositoryType>git</RepositoryType>
+		<RepositoryUrl>https://github.com/byte-craft-uk/hazelnut.git</RepositoryUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<Authors>Byte-Craft-UK</Authors>
+		<Description>Hazelnut Framework</Description>
+	</PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Hazelnut.Entities\Hazelnut.Entities\Hazelnut.Entities.csproj" />
+    <ProjectReference Include="..\..\Hazelnut\Hazelnut.csproj" />
+  </ItemGroup>
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+
+</Project>
