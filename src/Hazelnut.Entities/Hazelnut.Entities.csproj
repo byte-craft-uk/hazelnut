@@ -7,19 +7,19 @@
   </PropertyGroup>
 
 	<PropertyGroup>
-		<PackageId>Hazelnut.Webs</PackageId>
+		<PackageId>Hazelnut.Entities</PackageId>
 		<RepositoryType>git</RepositoryType>
 		<RepositoryUrl>https://github.com/byte-craft-uk/hazelnut.git</RepositoryUrl>
 		<Authors>Byte-Craft-UK</Authors>
 		<Description>Hazelnut Framework</Description>
 	</PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\..\Hazelnut.Entities\Hazelnut.Entities\Hazelnut.Entities.csproj" />
-    <ProjectReference Include="..\..\Hazelnut\Hazelnut.csproj" />
-  </ItemGroup>
 	<ItemGroup>
-		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+		<None Include="../../README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Hazelnut\Hazelnut.csproj" />
 	</ItemGroup>
 
 </Project>

@@ -5,11 +5,11 @@ VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hazelnut", "src\Hazelnut\Hazelnut.csproj", "{5B1369C1-FB84-4699-BCA4-F748A04525EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hazelnut.Mvc", "src\Hazelnut.MVC\Hazelnul.MVC\Hazelnut.Mvc.csproj", "{09D0CE84-DE9C-4604-ABEB-50F4105C0768}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hazelnut.Mvc", "src\Hazelnut.Mvc\Hazelnut.Mvc.csproj", "{09D0CE84-DE9C-4604-ABEB-50F4105C0768}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hazelnut.Webs", "src\Hazelnut.Web\ClassLibrary1\Hazelnut.Webs.csproj", "{00A060A7-5B1A-445F-9388-2545DCD49B0A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hazelnut.Webs", "src\Hazelnut.Web\Hazelnut.Webs.csproj", "{00A060A7-5B1A-445F-9388-2545DCD49B0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hazelnut.Entities", "src\Hazelnut.Entities\Hazelnut.Entities\Hazelnut.Entities.csproj", "{6809BAF5-F2FF-438A-9676-D6F0CB68557C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hazelnut.Entities", "src\Hazelnut.Entities\Hazelnut.Entities.csproj", "{6809BAF5-F2FF-438A-9676-D6F0CB68557C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
