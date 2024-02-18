@@ -1,11 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
-<PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+	<PropertyGroup>
 		<PackageId>Hazelnut.Web</PackageId>
 		<RepositoryType>git</RepositoryType>
 		<RepositoryUrl>https://github.com/byte-craft-uk/hazelnut.git</RepositoryUrl>
@@ -13,12 +13,16 @@
 		<Authors>Byte-Craft-UK</Authors>
 		<Description>Hazelnut Framework</Description>
 	</PropertyGroup>
-  	<ItemGroup>
+	<ItemGroup>
+		<Compile Remove="Extensions\**" />
+		<Compile Remove="Utilities\**" />
+		<EmbeddedResource Remove="Extensions\**" />
+		<EmbeddedResource Remove="Utilities\**" />
+		<None Remove="Extensions\**" />
+		<None Remove="Utilities\**" />
+	</ItemGroup>
+	<ItemGroup>
 		<None Include="../../README.md" Pack="true" PackagePath="\" />
 	</ItemGroup>
-  <ItemGroup>
-    <Folder Include="Extensions\" />
-    <Folder Include="Utilities\" />
-  </ItemGroup>
 
 </Project>
