@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hazelnut", "src\Hazelnut.csproj", "{5B1369C1-FB84-4699-BCA4-F748A04525EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hazelnut", "src\Hazelnut\Hazelnut.csproj", "{5B1369C1-FB84-4699-BCA4-F748A04525EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hazelnut.Web", "src\Hazelnut.Web\Hazelnut.Web\Hazelnut.Web.csproj", "{EC31EDB0-BEE8-4160-8DC1-BACF2C8454AC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hazelnut.Web", "src\Hazelnut.Web\Hazelnut.Web.csproj", "{EC31EDB0-BEE8-4160-8DC1-BACF2C8454AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
