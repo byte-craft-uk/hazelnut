@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hazelnut.Entities", "src\Ha
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hazelnut.Mvc", "src\Hazelnut.Mvc\Hazelnut.Mvc.csproj", "{D271E3ED-7135-4DE5-8CCE-6C849CF565CA}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hazelnut.Aws", "src\Hazelnut.Aws\Hazelnut.Aws.csproj", "{70E78E51-45A9-4A32-B692-E6C74D294062}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{D271E3ED-7135-4DE5-8CCE-6C849CF565CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D271E3ED-7135-4DE5-8CCE-6C849CF565CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D271E3ED-7135-4DE5-8CCE-6C849CF565CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70E78E51-45A9-4A32-B692-E6C74D294062}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70E78E51-45A9-4A32-B692-E6C74D294062}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70E78E51-45A9-4A32-B692-E6C74D294062}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70E78E51-45A9-4A32-B692-E6C74D294062}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
